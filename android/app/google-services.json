@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "461428855894",
+    "project_id": "omegatask-ba267",
+    "storage_bucket": "omegatask-ba267.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461428855894:android:b1ad22fd8fd4098c7e17f7",
+        "android_client_info": {
+          "package_name": "com.example.omega_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNJSYANBgZ1gvbPszXMY5UDtT9ZBrVF5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
