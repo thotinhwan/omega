@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Secondroute extends StatelessWidget {
-  const Secondroute({super.key});
+  const Secondroute({key});
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +36,7 @@ class Secondroute extends StatelessWidget {
               ),
               child: Container(
                 color: const Color(0xffdee1e6),
-                child: const Padding(
+                child: Padding(
                   padding: EdgeInsets.only(left: 8, bottom: 8),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,

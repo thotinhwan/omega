@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
+  const MyWidget({key});
 
   @override
   State<MyWidget> createState() => _MyWidgetState();
@@ -10,7 +10,7 @@ class MyWidget extends StatefulWidget {
 class _MyWidgetState extends State<MyWidget> {
   @override
   Widget build(BuildContext context) {
-    return const Row(
+    return Row(
       children: [
         CircleAvatar(
           backgroundColor: Colors.amber,

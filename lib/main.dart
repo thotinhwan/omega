@@ -5,20 +5,13 @@ import 'package:omega_task/home.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-      options: const FirebaseOptions(
-    apiKey: 'key',
-    appId: 'id',
-    messagingSenderId: 'sendid',
-    projectId: 'myapp',
-    storageBucket: 'myapp-b9yt18.appspot.com',
-  ));
+  await Firebase.initializeApp();
   await FirebaseAPI().initNotifications();
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({key});
 
   @override
   Widget build(BuildContext context) {

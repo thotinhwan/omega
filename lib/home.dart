@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:omega_task/notification.dart';
 
 class MyWidget extends StatefulWidget {
-  const MyWidget({super.key});
+  const MyWidget({key});
 
   @override
   State<MyWidget> createState() => _MyWidgetState();
@@ -20,7 +20,7 @@ class _MyWidgetState extends State<MyWidget> {
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.w900),
         ),
         leadingWidth: 150,
-        leading: const Padding(
+        leading: Padding(
           padding: EdgeInsets.only(top: 8, left: 8),
           child: Row(
             children: [
@@ -71,7 +71,7 @@ class _MyWidgetState extends State<MyWidget> {
         child: Padding(
           padding: const EdgeInsets.only(top: 20),
           child: ListView(
-            children: const [
+            children: [
               Row(
                 children: [
                   CircleAvatar(
